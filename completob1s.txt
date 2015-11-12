@@ -1,0 +1,58 @@
+a
+b
+c
+d
+e
+f
+g
+h
+i
+j
+k
+l
+m
+n
+ñ
+o
+p
+q
+r
+s
+t
+u
+v
+w
+x
+y
+z
+á
+é
+í
+ó
+ú
+ü
+&
+.
+prefijo númerico
+Mayus
+coma
+signo de interrogación
+punto y coma
+signo de exclamación
+comillas
+abre parentesis 
+cierra parentesis
+guion
+asterisco
+numero
+prefijo número
+cero
+uno
+dos
+tres
+cuatro
+cinco
+seis
+siete
+ocho
+nueve
