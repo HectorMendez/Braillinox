@@ -1,0 +1,138 @@
+//no tengo idea de como programar bien o qué sea lo mejor, pero estoy a cargo de esto y esto finalmente,
+//parecia como si me fuera a dar fama, no la necesito, no es algo que quiera, estudie ingeniería para hacer la diferencia
+//tal y como mis hermanas lo hacen, ayudar a sectores vulnerables, no por se importante, sino para ser útiles y hacer la diferencia
+ //este proyecto fue para el instituto para ciegos y debiles visuales ezequiel hernandez romo, ahí haré pruebas
+//también me gustaría que se le diera seguimiento en el estatal para ciegos, ya que son grandes personas y no hay mejor
+// escuela en la que mi sobrino haya podido estar, son como una familia y son increiblemente amables
+/nada de esto sería posible sin la ayuda de mi gran amiga Andrea ya que no es que siempre este, es sólo que cuando esta es como un rayo de luz
+// a todas las aportaciones monetarias y en animos que me ha hecho mi familia, mis tias, mi amiga Brenda, entre muchos otros, al proyecto
+
+//esto aun no es codigo, es sólo pseudocodigo
+
+
+
+// a cada letra corresponden unos gpios !! así sólo citaré los gpios de acción
+
+para bajar los GPIOS
+
+bajada = 15, 11, 23, 9, 25, 7
+
+/////////////////////////////////////////////////////////
+
+
+para subir las letras
+
+a =18
+
+b = 18, 22
+
+c = 18, 14
+
+d= 18, 14, 10
+
+e= 18, 10  
+
+f= 22, 18, 14
+
+g= 18, 14, 22, 10
+
+h = 18, 22, 10
+
+i = 22, 14
+ 
+j = 14, 10, 22
+
+k = 18, 24
+
+l = 18, 22, 24
+
+m = 18, 24, 14
+
+n = 18, 14, 10, 24
+
+ñ = 18, 14, 22, 10, 8
+
+o =18, 10,24
+
+p = 18, 22, 24, 14
+
+q = 18, 22, 24, 14,10
+
+r = 18, 22, 24, 10
+
+s = 22, 24, 14
+
+t = 22, 24, 14, 10
+
+u = 18, 24, 8
+
+v = 18, 22, 24, 8
+
+w = 22, 14, 10, 8
+
+x = 18, 14, 24, 8
+
+y = 18, 24, 14, 10, 8
+
+z = 18, 24, 10, 8
+
+á = 18, 22, 24, 10, 8
+
+é = 22, 24, 14, 8
+
+í = 24, 14
+
+ó = 24, 14, 8
+
+ú = 22, 24, 14, 10, 8
+
+ü = 18, 22, 10, 8
+
+& = 18, 22, 24, 14, 8
+
+. = 24
+
+Mayus = 14, 8
+
+coma = 22
+
+signo de interrogación = 22, 8
+
+punto y coma = 22, 24
+
+signo de exclamación = 22, 24, 10
+
+comillas = 22, 24, 8
+
+abre parentesis = 18, 22, 8
+
+cierra parentesis = 24, 14, 10
+
+guion = 24, 8
+
+asterisco = 24, 10
+
+Prefijo númerico = 24, 14, 10, 8 = Pn
+
+cero = Pn + j
+
+uno = Pn + a
+
+dos = Pn + b
+
+tres = Pn + c
+
+cuatro = Pn + d
+
+cinco = Pn + e
+
+seis = Pn + f
+
+siete = Pn + g
+
+ocho = Pn + h
+
+nueve = Pn + i
+// aquí debe primero salir uno y luego salir el otro !! es decir primero sse lanza el prefijo d enúmero, luego de guarda y sale el número
+
+//se supone que con esto ya se puede leer todo un libro, !! vamos a llevarlo al codigo y luego a un modelo de lenguaje completo.
