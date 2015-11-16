@@ -1,14 +1,14 @@
-#Este es el primer aporte para braillinox y su automatización
-#Un sistema embebido tiene un gcc muy limitado por eso se va a automatizar 
-#la instalación de dependencias usadas para gcc
-#Desarrollado por Héctor Méndez LABSOL y asociados en braillinox bajo GPLV3
-#Esto se va a montar en Yocto-RPI-LABSOL
+#Hallo, this is the first needes thing because for cross compile basesphinx, a gcc support is nedded
+#An Embedded os, in mayority of cases does not have GCC, for raspberry Pi is installable.
+#The instalation of the dependences used is simple, justm this scrip must have the correct permition and ./soportegcc.sh
+#Developed by Héctor Méndez LABSOL and associates braillinox under GPLV3
+#The scrips is just for a little time, because the future is monted GCC 5 with all things mounted in Yocto-RPI-LABSOL
 
 #! /bin/bash
-echo "el proceso va a empezar"
-sudo apt-get update #es una buena practica actualizar los repos antes de instalar 
-sudo apt-get upgrade #es mucho mejor practica actualizar el sistema antes de instalar cosas nuevas
-#Dependecias extra de GCC y G++ que son necesarias
+echo "The proces are going to start"
+sudo apt-get update #because, if the system does not update, possible the base is not in the correct link 
+sudo apt-get upgrade #if you don't have the necesity to upgrade, plase comment this line
+#xtra devs GCC y G++ and dependences
 sudo apt-get install -y gcc
 sudo apt-get install -y g++
 sudo apt-get install -y swig
@@ -22,6 +22,5 @@ sudo apt-get install -y autoconf
 sudo apt-get install -y gettext
 sudo apt-get install -y m4
 
-gcc --version   #esta parte sólo es para ver que versión instaló, en realidad no es muy
-#necesario ni el mundo muere si se elimina debe mostrar algo como gcc 4.8 o superior
-echo "gracias por usar este script" #Héctor Méndez les agradece por usar este sencillo script
+gcc --version   #in this part the gcc and g++ was update succesful. thanks for give review to my scripts
+#if you have a fail or bad experiences with this script please make a coment at @ZAIFEHR on twitter.
